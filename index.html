@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflect Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header container">
+    <nav class="nav-links">
+      <a href="#">HOME</a>
+      <a href="#">SHOP</a>
+      <a href="#">SALE</a>
+      <a href="#">ABOUT US</a>
+    </nav>
+    <div class="logo">REFLECT</div>
+    <div class="header-icons">
+      <button aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+      <button aria-label="Account">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+      </button>
+      <button aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero container">
+    <div class="hero-content">
+      <h1 class="hero-title">REFLECT<br>FASHION</h1>
+      <p class="hero-subtitle">Discover a fashion experience that not only mirrors your unique personality but amplifies
+        it. At Reflect, every piece is crafted to elevate your confidence, celebrate your individuality, and empower you
+        to stand out effortlessly in any setting.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary">Buy Product</button>
+        <button class="btn btn-outline">Explore Product</button>
+      </div>
+    </div>
+    <div class="hero-image-wrapper">
+      <img src="/assets/hero_image.png" alt="Couple in stylish winter coats" class="hero-image">
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <span>✨ REFLECT FASHION</span>
+      <span>✨ REFLECT FASHION</span>
+      <span>✨ REFLECT FASHION</span>
+      <span>✨ REFLECT FASHION</span>
+      <span>✨ REFLECT FASHION</span>
+      <span>✨ REFLECT FASHION</span>
+      <span>✨ REFLECT FASHION</span>
+      <span>✨ REFLECT FASHION</span>
+    </div>
+  </div>
+
+  <!-- FEATURED GRID -->
+  <section class="featured-grid container">
+    <div class="grid-col-1">
+      <div class="featured-card tall">
+        <img src="/assets/grid_image_1.png" alt="Woman in tan coat">
+        <button class="btn btn-white featured-btn">Explore Now</button>
+      </div>
+    </div>
+    <div class="grid-col-2">
+      <div class="featured-card tall">
+        <img src="/assets/grid_image_2.png" alt="Woman in black hat">
+        <button class="btn btn-white featured-btn">Explore Now</button>
+      </div>
+    </div>
+    <div class="grid-col-3">
+      <div class="featured-card horizontal">
+        <div class="card-text">
+          <span class="collection-label">Woman Collection</span>
+          <h3>Stylish Winter T-Shirt<br>for Woman</h3>
+          <button class="btn btn-outline small-btn">Check Now</button>
+        </div>
+        <img src="/assets/horizontal_card_1.png" alt="Woman in brown sweater">
+      </div>
+      <div class="featured-card horizontal">
+        <div class="card-text">
+          <span class="collection-label">Man Collection</span>
+          <h3>Stylish Winter Shirt<br>for Man</h3>
+          <button class="btn btn-outline small-btn">Check Now</button>
+        </div>
+        <img src="/assets/horizontal_card_2.png" alt="Man in blue plaid">
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTION SECTION -->
+  <section class="collection container">
+    <div class="collection-header">
+      <h2 class="section-title">OUR COLLECTION</h2>
+      <p class="section-desc">Step into the world of Reflect, where each collection tells its own story. From minimalist
+        essentials to bold statement pieces, our curated collections are designed to suit every occasion and style.</p>
+    </div>
+    <div class="collection-tabs">
+      <button class="tab active">Hoodie</button>
+      <button class="tab">Caps & Bags</button>
+      <button class="tab">Trending</button>
+      <button class="tab">Out Wear</button>
+      <button class="tab">Accessories</button>
+    </div>
+    <div class="collection-grid">
+      <!-- Item 1 -->
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="/assets/collection_1.png" alt="Grey Hoodie Back">
+          <div class="product-hover">
+            <button class="btn btn-transparent">Add to Cart</button>
+            <button class="btn btn-white product-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-name">Men BLVCK Grey Hoodie</span>
+          <span class="product-price">$160</span>
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="/assets/collection_2.png" alt="Olive Hoodie Back">
+          <div class="product-hover">
+            <button class="btn btn-transparent">Add to Cart</button>
+            <button class="btn btn-white product-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-name">LHR London England Hoodie</span>
+          <span class="product-price">$250</span>
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="/assets/collection_3.png" alt="Grey Graphic Hoodie">
+          <div class="product-hover">
+            <button class="btn btn-transparent">Add to Cart</button>
+            <button class="btn btn-white product-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-name">Retro Rapper Tupac Hoodie</span>
+          <span class="product-price">$160</span>
+        </div>
+      </div>
+      <!-- Item 4 -->
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="/assets/collection_4.png" alt="Black Hoodie">
+          <div class="product-hover">
+            <button class="btn btn-transparent">Add to Cart</button>
+            <button class="btn btn-white product-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <span class="product-name">Hip Hop Street Wear Hoodie</span>
+          <span class="product-price">$120</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEXT BANNER SECTION -->
+  <section class="text-banner container">
+    <div class="banner-left">
+      <p>At Reflect, we offer more than just clothing and footwear — we provide a canvas for your individuality. Our
+        thoughtfully designed apparel and footwear collections blend style and comfort, allowing you to make a statement
+        with every step.</p>
+    </div>
+    <div class="banner-right">
+      <h2>CLOTH AND FOOTWEAR<br>COLLECTION</h2>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-image-wrapper">
+        <img src="/assets/footer_image.png" alt="Couple smiling">
+      </div>
+      <div class="footer-text">
+        <h2>CLOTHING<br>COLLECTION</h2>
+        <p>Our clothing collection at Reflect is a celebration of style, versatility, and craftsmanship. Each piece is
+          meticulously designed to complement a range of occasions, from everyday wear to formal settings. Discover the
+          perfect fusion of trendy and timeless.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
